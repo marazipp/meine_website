@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zweispaltige Seite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+
+    .left-column, .right-column {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .left-column {
+      background-color: #f0f0f0;
+    }
+
+    .right-column {
+      background-color: #ffffff;
+      position: relative;
+    }
+
+    .right-column img {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      max-width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text-content {
+      margin-top: 180px; /* Platz für das Bild oben */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h2>Linker Textbereich</h2>
+      <p>
+        Hier steht ein Beispieltext für die linke Spalte. Du kannst hier beliebige Inhalte einfügen – Texte, Listen, Links usw.
+      </p>
+    </div>
+    <div class="right-column">
+      <img src="https://via.placeholder.com/150" alt="Beispielbild">
+      <div class="text-content">
+        <h2>Rechter Textbereich</h2>
+        <p>
+          Dies ist der rechte Bereich der Seite. Das Bild oben rechts wird unabhängig vom restlichen Text positioniert.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* style.css – Mara Zipp, Matrikel: 3024134 */
+body {
+      font-family: verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgb(35, 71, 45);
+      color: white;
+      padding: 1em 0;
+    }
+    .header ul > li > a {
+      text-decoration: none;
+    }
+    .active {
+      color: rgb(166, 143, 123);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 1.5em;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2em;
+    }
+    footer {
+      background-color: rgb(241, 241, 241);;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    h1{color: rgb(35, 71, 45)}
+    h2{color: rgb(166, 143, 123);}
+h3{color: rgb(166, 143, 123);}
+h4 {
+  margin-top: -17px;
+}
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+    }
+
+    .textlinks, .textrechts {
+      flex: 1;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+
+    .textlinks {
+      background-color: rgb(241, 241, 241);;
+    }
+
+    .textrechts {
+      background-color: rgb(241, 241, 241);;
+      position: relative;
+    }
+a{color:rgb(166, 143, 123) ;
+  }
+
+div.bildergalerie {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.bildergalerie:hover {
+  border: 1px solid #777;
+}
+
+div.bildergalerie img {
+  width: 100%;
+  height: auto;
+}
+
+div.beschreibung {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+div.bildergalerieteam {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.bildergalerieteam:hover {
+  border: 1px solid #777;
+}
+
+div.bildergalerieteam img {
+  width: 100%;
+  height: auto;
+}
+
+div.beschreibung {
+  padding: 15px;
+  text-align: left;
+}
